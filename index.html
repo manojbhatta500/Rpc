@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock paper sisor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- heading scores -->
+
+    <div class="column">
+
+   
+
+    <div class="scores">
+        <div class="scoreContainer">
+            <p>your score : <em class="humanscore">0</em></p>
+        </div>
+        <div class="scoreContainer">
+            <p>computer score : <em class="computerscore">0</em></p>
+        </div>
+    </div>
+
+    <!-- current result -->
+
+    <div class="currentresult">
+        <div class="resultcontainer">
+            <p class="currentHumanScore">Rock</p>
+        </div>
+        <div class="resultcontainer">
+            <p class="currentComputerResult">Rock</p>
+        </div>
+    </div>
+
+
+    <!-- result description -->
+     <div class="desc">
+        <h6 class="descres"></h6>
+     </div>
+    <!-- now rock paper sicsorrs button and reset button -->
+
+    <div class="buttons">
+        <button class="btn" id="rock"><p>rock</p> </button>
+        <button class="btn" id="paper"> <p>paper</p></button>
+        <button class="btn" id="sicsorrs"><p>sicsorrs</p></button>
+        <button class="btn" id="restart"><p> Restart Game</p></button>
+    </div>
+
+
+</div>
+
     <script src="script.js"></script>
 </body>
 </html>

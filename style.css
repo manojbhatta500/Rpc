@@ -1,0 +1,49 @@
+.scores{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+
+.currentresult{
+    display: flex;
+    justify-content: space-around;
+}
+.resultcontainer{
+    height: 50px;
+    width: 60px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    background-color: burlywood;
+    border:  solid blue;
+    justify-content: space-between;
+    
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+}
+
+
+.column{
+    justify-content: start;
+}
